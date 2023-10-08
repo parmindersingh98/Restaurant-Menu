@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    width: 100%;
+    background-color: #ffb0b0;
+}
+
+
+/* Main Section */
+
+.wrapper {
+    display: flex;
+}
+
+/* SideBar */
+
+.sidebar {
+    display: flex; 
+    flex-direction: column;
+    width: 20%;
+    background-color: #969696;
+}
+
+ /* Browser Section */
+
+ .content-browser{
+    width: 80%;
+    background-color: #d0d0d0;
+ }
+
+
+.content-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
